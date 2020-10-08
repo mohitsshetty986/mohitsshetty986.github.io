@@ -8,13 +8,30 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+	</script>
 </head>
 <body style="background: #f8f4ed">
+	<div class="topnav" id="myTopnav">
+	  <a href="#home">MOHIT</a>
+	  <a href="#news">Home</a>
+	  <a href="#" class="active">Work</a>
+	  <a href="#">Interests</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	    <i class="fa fa-bars"></i>
+	  </a>
+	</div>
 
 	<section id="content3">
 		<div class="wrapper">
-			<hr>
 			<br>
 			<p class="paragraph">
 				Education and Work Experience
@@ -213,12 +230,6 @@
 		</div>
 		<hr style="width: 1000px;">
 		<br>
-		<div class="wrapper">
-			<p class="paragraph">Interests
-			</p>
-		</div>
-		<br>
-		<hr style="width: 1000px;">
 	</section>
 
 	<script>
@@ -235,7 +246,7 @@
 			}
 			else{
 				document.getElementById("fontsize1").style.fontSize = "large";
-				$('#fontsize1').css('-webkit-line-clamp', '20');
+				$('#fontsize1').css('-webkit-line-clamp', '200');
 				$('#fontsize1').css('cursor', 'zoom-out');
 			}
 		}
@@ -247,7 +258,7 @@
 			}
 			else{
 				document.getElementById("fontsize2").style.fontSize = "large";
-				$('#fontsize2').css('-webkit-line-clamp', '20');
+				$('#fontsize2').css('-webkit-line-clamp', '200');
 				$('#fontsize2').css('cursor', 'zoom-out');
 			}
 		}
@@ -259,7 +270,7 @@
 			}
 			else{
 				document.getElementById("fontsize3").style.fontSize = "large";
-				$('#fontsize3').css('-webkit-line-clamp', '20');
+				$('#fontsize3').css('-webkit-line-clamp', '200');
 				$('#fontsize3').css('cursor', 'zoom-out');
 			}
 		}
@@ -271,7 +282,7 @@
 			}
 			else{
 				document.getElementById("fontsize4").style.fontSize = "large";
-				$('#fontsize4').css('-webkit-line-clamp', '20');
+				$('#fontsize4').css('-webkit-line-clamp', '200');
 				$('#fontsize4').css('cursor', 'zoom-out');
 			}
 		}
@@ -283,7 +294,7 @@
 			}
 			else{
 				document.getElementById("fontsize5").style.fontSize = "large";
-				$('#fontsize5').css('-webkit-line-clamp', '20');
+				$('#fontsize5').css('-webkit-line-clamp', '200');
 				$('#fontsize5').css('cursor', 'zoom-out');
 			}
 		}
