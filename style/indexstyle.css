@@ -192,7 +192,7 @@ h6 {
   color:#b2876f;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .intro{
     width: 60%;
     top: -30px;
