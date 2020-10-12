@@ -39,6 +39,7 @@
 	<br>
 	<br>
 	<center><p class="head1">Please fill out the form or drop a mail at mohitsshetty986@gmail.com and I will reach out to you soon!</p></center>
+	<br><br>
 	<div id="container1">
 	<br>
 	  <h1>&bull; Get in touch &bull;</h1>
