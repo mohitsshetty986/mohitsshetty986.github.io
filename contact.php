@@ -26,8 +26,8 @@
 	  <a href="" style="pointer-events: none"></a>
 	  <a href="index.html">Home</a>
 	  <a href="work.html">Work</a>
-	  <a href="#">Memento</a>
-	  <a href="contact.php">Contact</a>
+	  <a href="interests.php">Memento</a>
+	  <a href="">Contact</a>
 	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 	    <i class="fa fa-bars"></i>
 	  </a>
@@ -72,6 +72,8 @@
 	</div>
 	<br>
 	<br>
+
+
 
 </body>
 </html>
