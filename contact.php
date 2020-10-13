@@ -39,9 +39,11 @@
 	<br>
 	<br>
 
-	<div style="width: 100%; align-items: center;">
-		<iframe width="720" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=720&amp;height=200&amp;hl=en&amp;q=mumbai+()&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-	</div>
+	<center>
+		<div style="width: 100%; align-items: center;">
+			<iframe width="320" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=720&amp;height=200&amp;hl=en&amp;q=mumbai+()&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+		</div>
+	</center>
 	<br>
 	<br>
 	<br>
