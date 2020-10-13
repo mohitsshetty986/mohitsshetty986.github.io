@@ -47,7 +47,7 @@
 	  <form action="#" method="post" id="contact_form">
 	  	<div class="name1">
 	      <label for="name"></label>
-	       <input type="text" placeholder="Name" name="Name" id="customer" required>
+	       <input type="text" placeholder="Name" name="name" id="customer" required>
 	    </div>
 
 	    <div class="email">
@@ -62,7 +62,7 @@
 
 	    <div class="subject">
 	      <label for="describe"></label>
-	      <textarea name="describe" placeholder="Message" name="subject" id="describe" cols="30" rows="5" required></textarea>
+	      <textarea name="describe" placeholder="Message" id="describe" cols="30" rows="5" required></textarea>
 	    </div>
 
 	    <div class="submit">
@@ -75,3 +75,23 @@
 
 </body>
 </html>
+
+<?php
+
+if(isset($_POST['submit'])){
+	$name=$_POST['name'];
+	$telephone=$_POST['telephone'];
+	$email=$_POST['email'];
+	$messagefromcust=$_POST['describe'];
+
+	$mailTo="mohitsshetty986@gmail.com";
+	$subject="New Email from your personal Website";
+	$headers="From: ".$email;
+	$message="You have received an email from ".$name."\n\n Contact no.: ".$telephone."\n\n Email: ".$email."\n\n Message: ".$messagefromcust;
+
+	$sendmail=mail($mailTo, $subject, $message, $headers);
+
+	echo "<script>alert('Thank you for contacting Us, we will get back to you very soon')</script>";
+}
+
+?>
