@@ -38,6 +38,13 @@
 	<br>
 	<br>
 	<br>
+
+	<div style="width: 100%; align-items: center;">
+		<iframe width="720" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=720&amp;height=200&amp;hl=en&amp;q=mumbai+()&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+	</div>
+	<br>
+	<br>
+	<br>
 	<center><p class="head1">Please fill out the form or drop a mail at mohitsshetty986@gmail.com and I will reach out to you soon!</p></center>
 	<br><br>
 	<div id="container1">
@@ -72,8 +79,6 @@
 	</div>
 	<br>
 	<br>
-
-
 
 </body>
 </html>
