@@ -34,7 +34,7 @@
 	  </a>
 	</div>
 
-	<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+	<button id="topBtn"><i class="fa fa-arrow-up"></i></button>
 
 	<br>
 	<br>
