@@ -46,7 +46,7 @@
 		<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/facts.jpg">
 		</div>
 
-    	<h1>My Notebook</h1>
+    	<h1>Interesting Facts</h1>
     	<div class="time">
     		<time>OCT. 14, 2020</time>
   		</div>
