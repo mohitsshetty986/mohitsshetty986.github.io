@@ -33,6 +33,11 @@ body{
   font-size: 17px;
 }
 
+.topnav a.active {
+  color: white;
+  background: #c9a487;
+}
+
 .topnav a:hover{
   background: #b2876f;
   color: white;
