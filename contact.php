@@ -73,23 +73,30 @@
 	<br>
 	<br>
 
+	<script>
+	    if ( window.history.replaceState ) {
+	        window.history.replaceState( null, null, window.location.href );
+	    }
+	</script>
+
 </body>
 </html>
 
+
 <?php
+
+	require_once 'sendmail.php';
 
 if(isset($_POST['submit'])){
 	$name=$_POST['name'];
 	$telephone=$_POST['telephone'];
 	$email=$_POST['email'];
 	$messagefromcust=$_POST['describe'];
-
 	$mailTo="mohitsshetty986@gmail.com";
-	$subject="New Email from your personal Website";
-	$headers="From: ".$email;
+	$subject="New Email from your Personal Website";
 	$message="You have received an email from ".$name."\n\n Contact no.: ".$telephone."\n\n Email: ".$email."\n\n Message: ".$messagefromcust;
 
-	$sendmail=mail($mailTo, $subject, $message, $headers);
+	SendEmail::mail($mailTo, $subject, $message);
 
 	echo "<script>alert('Thank you for contacting Us, we will get back to you very soon')</script>";
 }
