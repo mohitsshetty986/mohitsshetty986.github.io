@@ -4,7 +4,7 @@
 
 	class SendEmail{
 		public static function mail($mailTo, $subject, $message){
-			$key = '';
+			$key = getenv('SENDGRID_API_KEY');
 			$email = new \SendGrid\Mail\Mail();
 			$email->setFrom('mohitsshetty986@gmail.com','Mohit Shetty');
 			$email->setSubject($subject);
