@@ -57,7 +57,7 @@
 
 	    <div class="telephone">
 	      <label for="telephone"></label>
-	      <input type="text" placeholder="Phone" name="telephone" id="telephone_input">
+	      <input type="text" placeholder="Phone (not required)" name="telephone" id="telephone_input">
 	    </div>	  
 
 	    <div class="subject">
