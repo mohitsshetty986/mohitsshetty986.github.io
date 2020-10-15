@@ -48,7 +48,7 @@
 
     	<h1>Interesting Facts</h1>
     	<div class="time">
-    		<time>OCT. 14, 2020</time>
+    		<time>My Information Feed</time>
   		</div>
   		<article>
 
