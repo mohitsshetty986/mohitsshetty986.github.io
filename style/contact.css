@@ -113,6 +113,7 @@ input[type='text'], [type='email'], textarea {
 	border: none;
 	border-bottom: solid 2px #474544;
 	color: #474544;
+	opacity: 0.5;
 	font-size: 1.000em;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -143,6 +144,10 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 	width: 50%;
 }
 
+.subject1 {
+	float: left;
+	width: 100%;
+}
 
 .subject {
 	float: left;

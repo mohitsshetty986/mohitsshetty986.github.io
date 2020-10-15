@@ -45,7 +45,7 @@
 	  <h1>&bull; Get in touch &bull;</h1>
 	  <div class="underline"></div>
 	  <form action="#" method="post" id="contact_form">
-	  	<div class="name1">
+	  	<div class="name">
 	      <label for="name"></label>
 	       <input type="text" placeholder="Name" name="name" id="customer" required>
 	    </div>
@@ -59,6 +59,11 @@
 	      <label for="telephone"></label>
 	      <input type="text" placeholder="Phone" name="telephone" id="telephone_input">
 	    </div>	  
+
+	    <div class="subject1">
+	      <label for="subject"></label>
+	      <input type="text" placeholder="Subject" name="subject" id="subject_input">
+	    </div>	 
 
 	    <div class="subject">
 	      <label for="describe"></label>
@@ -81,11 +86,12 @@
 if(isset($_POST['submit'])){
 	$name=$_POST['name'];
 	$telephone=$_POST['telephone'];
+	$subject=$_POST['subject'];
 	$email=$_POST['email'];
 	$messagefromcust=$_POST['describe'];
 
 	$mailTo="mohitsshetty986@gmail.com";
-	$subject="New Email from your personal Website";
+	$subject=$subject;
 	$headers="From: ".$email;
 	$message="You have received an email from ".$name."\n\n Contact no.: ".$telephone."\n\n Email: ".$email."\n\n Message: ".$messagefromcust;
 
