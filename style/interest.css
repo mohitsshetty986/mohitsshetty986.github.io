@@ -222,6 +222,8 @@ article {
 @media screen and (max-width: 800px){
   article {
     columns: 1;
+    width: 80%;
+
 }
 
 }
@@ -243,5 +245,39 @@ p1{
   .parallax {
     background-attachment: fixed;
     background-size: contain;
+  }
+}
+
+
+#header2{
+    width: 70%;
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    margin: auto;
+    font-family:'Piazzolla', serif;
+    padding: 2%;
+
+}
+.animation{
+    font-size: 30px;
+    height: 30px;
+    animation: an 1s ease-out 1 both;
+    display: inline-block;
+}
+@keyframes an{
+    from{
+        opacity: 0;
+        transform: perspective(400px) translate3d(-35px, -40px, -130px) rotate3d(1, -1, 0, 35deg);
+    }
+    to{
+        opacity: 1;
+        transform: perspective(400px) translate3d(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 400px){
+  .animation{
+    font-size: 17px;
   }
 }

@@ -43,13 +43,13 @@
 	<br>
 	<br>
 	<br>
-
 		<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/facts.jpg">
 		</div>
-
-    	<h1>Interesting Facts</h1>
+		<br>
+		<p id="header2">There are some cool amazing facts that keeps me motivated...</p>
+		<br>
     	<div class="time">
-    		<time>My Information Feed</time>
+    		<time>News feed</time>
   		</div>
   		<article>
 
@@ -85,7 +85,7 @@
     <hr width="80%;">
 	<br>
 
-	<h1>Making Memories</h1>
+	<h1>Photos</h1>
 	<div class="photos" style="width: 80%;margin: 0px auto;">
 
         <?php
@@ -129,5 +129,25 @@
 		});
 	</script>
     
+	<script>
+		var text = document.getElementById('hearder2');
+        var newDom = '';
+        var animationDelay = 6;
+
+        for(let i = 0; i < header2.innerText.length; i++)
+        {
+            newDom += '<span class="animation">' + (header2.innerText[i] == ' ' ? '&nbsp;' : header2.innerText[i])+ '</span>';
+        }
+
+        header2.innerHTML = newDom;
+        var length = header2.children.length;
+
+        for(let i = 0; i < length; i++)
+        {
+            header2.children[i].style['animation-delay'] = animationDelay * i + 'ms';
+        }
+    
+	</script>
+
 </body>
 </html>
