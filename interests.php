@@ -69,7 +69,7 @@
     	<p>This cyyogenic engine is expected to be used in Vikram-II rocket for propulsion.</p>
 
     	<br>
-    	<h2>Battery made of nature's extracts by Aloe E-Cell</h2>
+    	<h2>Battery made of nature's extracts by Aloe E-Cell, an Indian Startup</h2>
   		<p1>References:- <a href="https://www.aloeecell.com/">aloeecell.com</a>, <a href="https://www.f6s.com/aloeecell">f6s.com/</a>, <a href="https://timesofindia.indiatimes.com/city/lucknow/aloe-magic-herbal-panacea-can-now-power-green-batteries/articleshow/71390317.cms">The Times Of India</a></p1>
 
 	    <p>Out of total 2 Million Metric tonnes of E-waste generated annually it contains 11.4 M batteries accounting to a share of 82% of total waste resulting in landfills causing air, water & soil pollution. 97% of the material used in traditional batteries are imported levying a high pressure of >148 Billion Dollars on Indian economy.</p>
