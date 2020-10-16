@@ -222,7 +222,7 @@ article {
 @media screen and (max-width: 800px){
   article {
     columns: 1;
-    width: 80%;
+    width: 70%;
 
 }
 
