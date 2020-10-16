@@ -98,7 +98,7 @@ if(isset($_POST['submit'])){
 	$message="You have received an email from ".$name."\n\n Contact no.: ".$telephone."\n\n Email: ".$email."\n\n Message: ".$messagefromcust;
 
 	SendEmail::mail($mailTo, $subject, $message);
-
+	
 	echo "<script>alert('Thank you for contacting Us, we will get back to you very soon')</script>";
 }
 
