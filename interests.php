@@ -60,7 +60,7 @@
 
 	  		<p1>References:- <a href="https://skyroot.in/">skyroot.in</a>, <a href="https://yourstory.com/2020/09/hyderabad-spacetech-startup-skyroot-cryogenic-rocket-engine-dhawan1">yourstory.com</a>, <a href="https://manufactur3dmag.com/indias-skyroot-aerospace-test-fires-upper-stage-rocket-engine-fitted-with-3d-printed-injector/">manufactur3dmag.com</a>, <a href="https://www.3dprintingmedia.network/skyroot-aerospace-shows-off-100-3d-printed-dhawan-1-rocket-engine/#:~:text=On%20the%20occasion%20of%20the,also%20100%25%20Made%20in%20India.">3dprintingmedia.network</a></p1>
 
-	  		<p>On the ocassion of the 100th birth anniversary of renowned Rocket Scientist, Dr. Satish Dhawan, Skyroot Aeropsace unveiled it's first 100% 3D printed cryogenic rocket engine, named Dhawan-1, running on Liquid Natural Gas as fuel.</p>
+	  		<p>On the ocassion of the 100th birth anniversary of renowned Rocket Scientist, Dr. Satish Dhawan, Skyroot Aerospace unveiled it's first 100% 3D printed cryogenic rocket engine, named Dhawan-1, running on Liquid Natural Gas as fuel.</p>
 
 	    	<p>Skyroot is building a series of Rockets named Vikram, after Dr. Vikram Sarabhai. Vikram is built on a common architecture and covers a wide range of payloads, they offer the most affordable and on demand ride to space. It's 100% Made in India.</p>
 
@@ -90,7 +90,7 @@
 
 	  		<p1>References:- <a href="https://skyroot.in/">skyroot.in</a>, <a href="https://yourstory.com/2020/09/hyderabad-spacetech-startup-skyroot-cryogenic-rocket-engine-dhawan1">yourstory.com</a>, <a href="https://manufactur3dmag.com/indias-skyroot-aerospace-test-fires-upper-stage-rocket-engine-fitted-with-3d-printed-injector/">manufactur3dmag.com</a>, <a href="https://www.3dprintingmedia.network/skyroot-aerospace-shows-off-100-3d-printed-dhawan-1-rocket-engine/#:~:text=On%20the%20occasion%20of%20the,also%20100%25%20Made%20in%20India.">3dprintingmedia.network</a></p1>
 
-	  		<p>On the ocassion of the 100th birth anniversary of renowned Rocket Scientist, Dr. Satish Dhawan, Skyroot Aeropsace unveiled it's first 100% 3D printed cryogenic rocket engine, named Dhawan-1, running on Liquid Natural Gas as fuel.</p>
+	  		<p>Tesla</p>
 
 	    	<p>Skyroot is building a series of Rockets named Vikram, after Dr. Vikram Sarabhai. Vikram is built on a common architecture and covers a wide range of payloads, they offer the most affordable and on demand ride to space. It's 100% Made in India.</p>
 
