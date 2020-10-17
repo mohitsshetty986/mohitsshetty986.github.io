@@ -74,7 +74,7 @@
 
 		    <p>Out of total 2 Million Metric tonnes of E-waste generated annually it contains 11.4 M batteries accounting to a share of 82% of total waste resulting in landfills causing air, water & soil pollution. 97% of the material used in traditional batteries are imported levying a high pressure of >148 Billion Dollars on Indian economy.</p>
 
-		    <img src="facts/aloeecell.jpg" style="width:60%">
+		    <img src="facts/aloeecell.jpg" style="width:100%">
 
 		    <p>Aloe E-cell have created world's first 100% Eco friendly and non hazardous 1.5V batteries using Aloevera, at 10% cheaper cost and 1.5 times durability.</p>
 
