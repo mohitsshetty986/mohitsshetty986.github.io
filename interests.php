@@ -48,7 +48,7 @@
 		<br>
 		<p id="header2">There are some cool amazing facts that keeps me motivated...</p>
 		<br>
-    	<div class="head5">
+    	<div class="time">
     		<time>Did You Know?</time>
   		</div>
   		<article>
