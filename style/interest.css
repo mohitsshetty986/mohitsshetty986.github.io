@@ -218,6 +218,7 @@ article {
   column-rule: 2px outset #444;
   width: 80%;
   margin: auto;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 800px){
