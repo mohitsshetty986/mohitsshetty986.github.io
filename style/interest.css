@@ -166,70 +166,6 @@ body{
   opacity: 1;
 }
 
-h1{
-  text-align: center;
-  line-height: 1em;
-  font-size: 40px;
-  font-weight: lighter;
-  font-family: 'Piazzolla', serif;
-}
-
-h2 {
-  font-size: 20px;
-  line-height: 1em;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-family: italic;
-}
-
-.time{
-  text-align: center;
-  font-weight: lighter;
-  font-family: 'Piazzolla', serif;
-  border-top: 3px solid grey;
-  border-bottom: 3px solid grey;
-  font-size: 1.6em;
-  padding-bottom: 12px;
-  margin-bottom: 30px;
-  width: 80%;
-  margin:auto;
-  text-transform: uppercase;
-}
-
-  p {
-    text-align: justify;
-    font-family: 'Piazzolla', serif;
-  }
-
-article {
-  -moz-columns: 3;
-  -webkit-columns: 3;
-  columns: 3;
-  -webkit-column-gap: 40px;
-  -moz-column-gap: 40px;
-  column-gap: 40px;
-  line-height: 1.5em;
-  font-size: 1em;
-  padding: 50px;
-  width: 80%;
-  margin: auto;
-  font-size: 13px;
-}
-
-@media screen and (max-width: 800px){
-  article {
-    columns: 1;
-    width: 70%;
-
-}
-
-}
-
-p1{
-  font-family: 'Piazzolla', serif;
-  font-size: 14px; 
 }
 
 .parallax{
@@ -248,38 +184,3 @@ p1{
 }
 
 
-#header2{
-    width: 70%;
-    font-size: 30px;
-    text-align: center;
-    color:black;
-    margin: auto;
-    font-family:'Piazzolla', serif;
-    padding: 2%;
-
-}
-.animation{
-    font-size: 30px;
-    height: 30px;
-    animation: an 1s ease-out 1 both;
-    display: inline-block;
-}
-@keyframes an{
-    from{
-        opacity: 0;
-        transform: perspective(400px) translate3d(-35px, -40px, -130px) rotate3d(1, -1, 0, 35deg);
-    }
-    to{
-        opacity: 1;
-        transform: perspective(400px) translate3d(0, 0, 0);
-    }
-}
-
-@media screen and (max-width: 400px){
-  .animation{
-    font-size: 17px;
-  }
-  #header2{
-    font-size: 20px;
-  }
-}

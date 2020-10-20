@@ -46,16 +46,7 @@
 		<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/facts.jpg">
 		</div>
 	
-	    	<h2>Tesla Gigafactory</h2>
-	  		<p1>References:- <a href="https://www.tesla.com/gigafactory">tesla.com</a>, <a href="https://www.theverge.com/transportation/2018/11/30/18118451/tesla-gigafactory-nevada-video-elon-musk-jobs-model-3">theverge/</a>, <a href="https://www.manifestias.com/2020/06/12/gigafactories/">Manifest IAS</a>, <a href="https://www.cnbc.com/2019/05/03/we-went-inside-teslas-gigafactory-heres-what-it-looked-like.html">CNBC</a></p1>
-
-		    <p>Elon Musk has called the Gigafactory a "machine that builds the machine." Gigafactory is a one-size-fits-all factory that makes anything Tesla sells from batteries, solar panels, home storage solutions and electric vehicles, all under one roof. The current structure is only 30% complete housing approximately 5.3 million sq. ft. of operational space accross several floors. The size is truely massive such that, on completion the Gigafactory will be the biggest building in the world by footprint, designed to be a net zero energy factory powered by solar.</p>
-
-		    <img src="facts/hero.jpg" style="width:100%">
-
-		    <p>Gigafactory primarily develops lithium-ion batteries from start-to-finish. Alongside the batteries, the factory produces electric motors for Tesla's cheapest car Model 3, the powerwall and powerpack energy storage systems. To ramp production of cars to half a million per year, Tesla requires today's entire worldwide supply of lithium-ion batteries. Tesla currently produces more batteries in terms of kWh than all other carmakers combined and with the Gigafactory ramping up production, the battery cells cost will significantly decline through proportionate savings in cost gained from increased level of production, innovative manufacturing, reduction of waste and optimization of manufacturing processes all under one roof.</p>
-
-	    </article>
+	
 
     <br>
     <hr width="80%;">
