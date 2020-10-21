@@ -22,6 +22,7 @@
 		  }
 		}
 	</script>
+
 </head>
 <body style="background: #f8f4ed">
 	<div class="topnav" id="myTopnav">
@@ -43,10 +44,19 @@
 	<br>
 	<br>
 	<br>
-		<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/facts.jpg">
+		<div class="container">
+			<div class="search">
+				<input type="text" placeholder="Search feed.." feed-search />
+			</div>
+			<div class="items">
+				<div search-item search-name="Tesla">
+					<section>
+						<p class="large-text"></p>
+						<p class="small-text"></p>
+					</section>
+				</div>
+			</div>
 		</div>
-	
-	
 
     <br>
     <hr width="80%;">
@@ -95,25 +105,18 @@
 		  });
 		});
 	</script>
-    
 	<script>
-		var text = document.getElementById('hearder2');
-        var newDom = '';
-        var animationDelay = 6;
+		$('[feed-search]').on('keyup', function() {
+			var searchVal = $(this).val();
+			var filterItems = $('[search-item]');
 
-        for(let i = 0; i < header2.innerText.length; i++)
-        {
-            newDom += '<span class="animation">' + (header2.innerText[i] == ' ' ? '&nbsp;' : header2.innerText[i])+ '</span>';
-        }
-
-        header2.innerHTML = newDom;
-        var length = header2.children.length;
-
-        for(let i = 0; i < length; i++)
-        {
-            header2.children[i].style['animation-delay'] = animationDelay * i + 'ms';
-        }
-    
+			if ( searchVal != '' ) {
+				filterItems.addClass('hidden');
+				$('[search-item][search-name*="' + searchVal.toLowerCase() + '"]').removeClass('hidden');
+			} else {
+				filterItems.removeClass('hidden');
+			}
+		});
 	</script>
 
 </body>
