@@ -254,6 +254,9 @@ textarea {
 	}
 }
 
+.blink,.head1{
+	display:inline-block;
+}
 span{
     font-size: 30px;
     font-weight: bolder;
