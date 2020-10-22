@@ -256,4 +256,5 @@ h1{
   font-size: 18px;
   color: black;
   display: block;
+  pointer-events: none;
 }
