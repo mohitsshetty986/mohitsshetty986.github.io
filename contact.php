@@ -39,7 +39,7 @@
 	<br>
 	<br>
 	<br>
-	<center><p class="head1">Please fill out the form or drop a mail at mohitsshetty986@gmail.com and I will reach out to you soon!</p></center>
+	<center><p class="head1">Please fill out the form or drop a mail at <div class="blink"><span>[</span></div> mohitsshetty986@gmail.com <div class="blink"><span>]</span></div> and I will reach out to you soon!</p></center>
 	<br><br>
 	<div id="container1">
 	<br>
