@@ -45,7 +45,7 @@
 	<br>
 	<br>
 		<div class="container">
-			<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search feed.." title="Type in a name">
+			<input type="text" id="myInput" onkeyup="myFunction1()" placeholder="Search feed.." title="Type in a name">
 
 				<ul id="myUL">
 				  <li><a href="#"><p class="large-text">Tesla Gigafactory</p>
@@ -112,7 +112,7 @@
 		});
 	</script>
 	<script>
-		function myFunction() {
+		function myFunction1() {
 		    var input, filter, ul, li, a, i, txtValue;
 		    input = document.getElementById("myInput");
 		    filter = input.value.toUpperCase();
