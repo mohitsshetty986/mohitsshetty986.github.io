@@ -45,19 +45,23 @@
 	<br>
 	<br>
 		<div class="container">
-			<div class="search">
-				<input type="text" placeholder="Search feed.." feed-search />
-			</div>
-			<div class="items">
-				<div search-item search-name="tesla gigafactory model 3 lithium ion elon musk battery batteries solar factory ">
-					<section>
-						<p class="large-text">Tesla Gigafactory</p>
+			<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search feed.." title="Type in a name">
+
+				<ul id="myUL">
+				  <li><a href="#"><p class="large-text">Tesla Gigafactory</p>
 						<img src="facts/gigafactory.jpg" class="factimg">
 						<p class="small-text"> Do you know what the most important thing Tesla makes ? Elon Musk calls it a Giant machine that builds a machine. This is TESLA's GIGAFACTORY. It's aimed at making pretty much everything Tesla sells - batteries, home storage, solar panels and of course electric cars. Currently the facility produces primarily lithium-ion batteries - 13 million per day and electric motors for the Tesla Model 3, the company’s cheapest-ever car, plus the Powerwall and Powerpack energy storage systems designed to work with renewable sources. Tesla produces 60 percent of Global EV batteries and it's accelerating to achieve production of terawatt-hour battery (per year), the million mile battery for future cars which will hold more charge and have lower price point. Tesla's plan is to ramp production to 500,000 cars per year and for that it would require today's entire worldwide supply of lithium-ion batteries. The size of the First Gigafactory facility is truly massive. On completion it will be the biggest building in the world by footprint about 5.8 million square feet, and the second biggest by volume. It's large enough to house 107 NFL football fields or 93 Boeing 747s. It's built with the end in mind of being a net-zero facility. There'll be over 200,000 solar panels on the roof, with the largest array of solar panels anywhere. Musk says the whole point of the massive facility is to make batteries that can be used to store renewable energy like solar more affordable.</p>
-						<hr style="height: 3px; background:grey;">
-					</section>
-				</div>
-			</div>
+						</a><hr style="height: 2.3px; background:grey;"></li>
+				  <li><a href="#"></a></li>
+
+				  <li><a href="#"></a></li>
+				  <li><a href="#"></a></li>
+
+				  <li><a href="#"></a></li>
+				  <li><a href="#"></a></li>
+				  <li><a href="#"></a></li>
+				</ul>
+
 		</div>
 
     <br>
@@ -108,18 +112,24 @@
 		});
 	</script>
 	<script>
-		$('[feed-search]').on('keyup', function() {
-			var searchVal = $(this).val();
-			var filterItems = $('[search-item]');
-
-			if ( searchVal != '' ) {
-				filterItems.addClass('hidden');
-				$('[search-item][search-name*="' + searchVal.toLowerCase() + '"]').removeClass('hidden');
-			} else {
-				filterItems.removeClass('hidden');
-			}
-		});
+		function myFunction() {
+		    var input, filter, ul, li, a, i, txtValue;
+		    input = document.getElementById("myInput");
+		    filter = input.value.toUpperCase();
+		    ul = document.getElementById("myUL");
+		    li = ul.getElementsByTagName("li");
+		    for (i = 0; i < li.length; i++) {
+		        a = li[i].getElementsByTagName("a")[0];
+		        txtValue = a.textContent || a.innerText;
+		        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+		            li[i].style.display = "";
+		        } else {
+		            li[i].style.display = "none";
+		        }
+		    }
+		}
 	</script>
+
 
 </body>
 </html>

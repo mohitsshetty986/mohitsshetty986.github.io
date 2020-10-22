@@ -175,7 +175,7 @@ body{
 }
 
 
-input[type=text] {
+input {
   width: 30%;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -191,16 +191,8 @@ input[type=text] {
   outline: none; 
 }
 
-input[type=text]:focus {
+input:focus {
   width: 60%;
-}
-
-.hidden {
-  display: none;
-}
-
-[search-item] {
-  padding: 15px;
 }
 
 p:nth-of-type(1):first-letter {
@@ -245,7 +237,23 @@ h1{
     width: 80%;
   }
 
-  input[type=text]{
+  input{
     width: 70%;
   }
+}
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  margin-top: -1px;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
 }
