@@ -1,17 +1,16 @@
-body{
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  margin: 0px;
-}
 
 body{
   width: 100%;
   height: 100%;
-  position: fixed;
+  background: linear-gradient(132deg, #f8f4ed, #ffcc99);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 5s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
 
 .topnav {
@@ -66,7 +65,7 @@ body{
   .topnav.responsive {
     position: relative;
     background-color:hsl(0, 0%, 15%,0.1);}
-  .topnav.responsive .icon {
+  .topnav.responsive .icon{
     position: absolute;
     right: 0;
     top: 0;
@@ -158,7 +157,7 @@ span:hover {
   }
 }
 
-.intro{
+#intro{
   width: 30%;
   transform: translate(0, 100%);
   margin-left: 10%;
@@ -167,33 +166,8 @@ span:hover {
   position: absolute;
 }
 
-h4,h6 { margin:0 0 25px; 
-  padding:0; 
-  letter-spacing: 0; 
-  font-weight: 400;
-  
-}
-
-h4{
-  font-size:40px; 
-  line-height:46px
-}
-h6 {
-  font-size:25px; 
-  line-height:30px
-}
-
-.text-large {
-  font-size:18px; 
-  line-height:26px
-}
-
-.text-medium-gray {
-  color:#b2876f;
-}
-
 @media screen and (max-width: 400px) {
-  .intro{
+  #intro{
     width: 60%;
     top: -30px;
   }
@@ -201,9 +175,13 @@ h6 {
 }
 
 @media screen and (max-width: 700px) {
-  .intro{
+  #intro{
     width: 60%;
     top: -10px;
   }
 }
 
+.blur   {
+    filter: blur(35px);
+
+}

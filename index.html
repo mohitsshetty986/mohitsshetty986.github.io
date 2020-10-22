@@ -12,11 +12,14 @@
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
 	<script>
 		function myFunction() {
-		  var x = document.getElementById("myTopnav");
+		  var x = document.getElementById("myTopnav"); 
+		  var y = document.getElementById("intro");
 		  if (x.className === "topnav") {
 		    x.className += " responsive";
+		    y.setAttribute("class", "blur");
 		  } else {
-		    x.className = "topnav";
+		    x.className = "topnav"; 
+		    y.setAttribute("class", "");
 		  }
 		}
 	</script>
@@ -33,10 +36,10 @@
 	  </a>
 	</div>
 
-	<div class="intro">
- 		<h4 class="text-medium-gray display-block margin-5px-bottom alt-font">Hello !</h4>
-	    <h6 class="text-medium-gray font-weight-300 margin-20px-bottom alt-font">I'm Mohit Shetty</h6>
-	    <p class="text-large dispaly-block pull-left font-weight-300 width-90 margin-35px-bottom">I'm a Computer Science Masters student at, University at Buffalo, SUNY.</p>	
+	<div id="intro">
+ 		<h1>Hello !</h1>
+	    <h1>I'm Mohit Shetty</h1>
+	    <p style="font-size: 17px;">I'm a Computer Science Masters student at, University at Buffalo, SUNY.</p>	
 	</div>
 
 	<div class="connect">
