@@ -227,6 +227,12 @@ h1{
   width:40%;
 }
 
+.factimg1{
+  float:left; 
+  padding: 20px; 
+  width:40%;
+}
+
 @media screen and (max-width: 1205px){
   .factimg{
   float: none; 
