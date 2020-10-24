@@ -226,6 +226,7 @@ h1{
   padding: 20px; 
   width:40%;
   pointer-events: auto;
+  box-shadow: 3px 3px 3px;
 }
 
 #myImg1{
@@ -233,6 +234,7 @@ h1{
   padding: 20px; 
   width:40%;
   pointer-events: auto;
+  box-shadow: 3px 3px 3px;
 }
 
 @media screen and (max-width: 1205px){
