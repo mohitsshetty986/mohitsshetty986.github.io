@@ -157,7 +157,7 @@
 			var images=img[i];
 			images.onclick = function(){
 			  modal.style.display = "block";
-			  $('body').css('overflow', 'hidden');
+			  
 			  modalImg.src = this.src;
 			  captionText.innerHTML = this.alt;
 			}
@@ -169,7 +169,6 @@
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function() { 
 		  modal.style.display = "none";
-		  $('body').css('overflow', 'auto');
 		}
 	</script>
 
