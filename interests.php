@@ -169,7 +169,7 @@
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function() { 
 		  modal.style.display = "none";
-		  document.querySelector("body").style.overflow = 'visible';
+		  document.querySelector("body").style.overflow = 'auto';
 		}
 	</script>
 
