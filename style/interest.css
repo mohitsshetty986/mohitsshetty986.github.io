@@ -228,8 +228,15 @@ h1{
   pointer-events: auto;
 }
 
+#myImg1{
+  float:left; 
+  padding: 20px; 
+  width:40%;
+  pointer-events: auto;
+}
+
 @media screen and (max-width: 1205px){
-  #myImg{
+  #myImg, #myImg1{
   float: none; 
   width: 80%;  
   }
