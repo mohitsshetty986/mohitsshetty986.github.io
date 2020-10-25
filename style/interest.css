@@ -228,10 +228,6 @@ h1{
   pointer-events: auto;
 }
 
-#myImg, #myImg1 :hover{
-  opacity: 0.5;
-}
-
 #myImg1{
   float:left; 
   padding: 20px; 
