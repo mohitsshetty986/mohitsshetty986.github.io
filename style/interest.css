@@ -290,7 +290,6 @@ h1{
   display: block;
   width: 80%;
   max-width: 700px;
-  overflow-y: hidden;
 }
 
 #caption {

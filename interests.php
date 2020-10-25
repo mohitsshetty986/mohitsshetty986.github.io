@@ -157,6 +157,7 @@
 			var images=img[i];
 			images.onclick = function(){
 			  modal.style.display = "block";
+			  document.querySelector("body").style.overflow = 'hidden';
 			  modalImg.src = this.src;
 			  captionText.innerHTML = this.alt;
 			}
@@ -170,7 +171,6 @@
 		  modal.style.display = "none";
 		}
 	</script>
-
 
 </body>
 </html>
