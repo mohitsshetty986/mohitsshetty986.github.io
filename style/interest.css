@@ -283,7 +283,6 @@ h1{
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  overflow-y: hidden;
 }
 
 .modal-content {
@@ -291,6 +290,7 @@ h1{
   display: block;
   width: 80%;
   max-width: 700px;
+  overflow-y: hidden;
 }
 
 #caption {
