@@ -221,22 +221,15 @@ h1{
   font-weight: lighter;
 }
 
-.factimg{
+#myImg{
   float:right; 
   padding: 20px; 
   width:40%;
   pointer-events: auto;
 }
 
-.factimg1{
-  float:left; 
-  padding: 20px; 
-  width:40%;
-  pointer-events: auto;
-}
-
 @media screen and (max-width: 1205px){
-  .factimg, .factimg1{
+  #myImg{
   float: none; 
   width: 80%;  
   }
