@@ -224,7 +224,7 @@ h1{
 #myImg{
   float:right; 
   padding: 20px; 
-  width:40%;
+  height: 300px;
   pointer-events: auto;
 }
 
