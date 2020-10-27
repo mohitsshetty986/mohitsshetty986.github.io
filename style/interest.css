@@ -215,6 +215,22 @@ p:nth-of-type(1):first-letter {
   text-align: justify;
 }
 
+.more{
+  display: none;
+}
+
+button{
+  background-color: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+  color: #b2876f;
+  border: none;
+  font-weight: bolder;
+  outline: none;
+  font-family: 'Piazzolla', serif;
+  font-size: 15px;
+}
+
 h1{
   text-align: center;
   font-family: 'Piazzolla', serif;
