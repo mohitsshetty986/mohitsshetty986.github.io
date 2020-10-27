@@ -235,7 +235,7 @@ h1{
   pointer-events: auto;
 }
 
-@media screen and (max-width: 1205px){
+@media screen and (max-width: 505px){
   #myImg, #myImg1{
   float: none;
   height: auto; 
