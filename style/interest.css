@@ -224,20 +224,21 @@ h1{
 #myImg{
   float:right; 
   padding: 20px; 
-  height: 300px;
+  height: 200px;
   pointer-events: auto;
 }
 
 #myImg1{
   float:left; 
   padding: 20px; 
-  width:40%;
+  height: 200px;
   pointer-events: auto;
 }
 
 @media screen and (max-width: 1205px){
   #myImg, #myImg1{
-  float: none; 
+  float: none;
+  height: auto; 
   width: 80%;  
   }
     
