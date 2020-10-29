@@ -73,7 +73,6 @@
 	</div>
 	<br>
 	<br>
-	
 	<div class="footer"><i class="fa fa-code" aria-hidden="true" style="font-weight: bolder;"></i> by Mohit Shetty</div>
 
 	<script>
