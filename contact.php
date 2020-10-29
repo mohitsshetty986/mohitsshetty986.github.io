@@ -99,7 +99,7 @@ if(isset($_POST['submit'])){
 
 	SendEmail::mail($mailTo, $subject, $message);
 	
-	echo "<script>alert('Thank you for contacting Us, we will get back to you very soon')</script>";
+	echo "<script>alert('Thank you, I will get back to you soon!')</script>";
 }
 
 ?>
