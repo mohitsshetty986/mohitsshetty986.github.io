@@ -243,7 +243,7 @@ h1{
   width: 300px; 
   height: 200px;
   pointer-events: auto;
-  overflow: hidden;
+  object-fit: cover;
 }
 
 #myImg1{
@@ -252,7 +252,7 @@ h1{
   width: 300px; 
   height: 200px;
   pointer-events: auto;
-  overflow: hidden;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 505px){
@@ -260,7 +260,7 @@ h1{
   float: none;
   height: auto; 
   width: 80%; 
-  overflow: hidden; 
+  object-fit: cover;
   }
     
   .container{
