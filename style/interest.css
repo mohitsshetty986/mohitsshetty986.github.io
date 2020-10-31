@@ -339,7 +339,7 @@ h1{
 
 @keyframes zoom {
   from {transform:scale(0)} 
-  to {transform:scale(2)}
+  to {transform:scale(1)}
 }
 
 .close {
