@@ -293,7 +293,7 @@ h1{
   pointer-events: none;
 }
 
-.modal,.modal1 {
+.modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 9999999999; /* Sit on top */
@@ -314,13 +314,6 @@ h1{
   max-width: 700px;
 }
 
-.modal-content1 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 4500px;
-}
-
 #caption {
   margin: auto;
   display: block;
@@ -332,7 +325,7 @@ h1{
   height: 150px;
 }
 
-.modal-content,.modal-content1, #caption {  
+.modal-content, #caption {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -341,12 +334,12 @@ h1{
 
 @-webkit-keyframes zoom {
   from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
+  to {-webkit-transform:scale(3)}
 }
 
 @keyframes zoom {
   from {transform:scale(0)} 
-  to {transform:scale(1)}
+  to {transform:scale(3)}
 }
 
 .close {
