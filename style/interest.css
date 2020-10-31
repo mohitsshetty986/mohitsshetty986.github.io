@@ -334,12 +334,12 @@ h1{
 
 @-webkit-keyframes zoom {
   from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(3)}
+  to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
   from {transform:scale(0)} 
-  to {transform:scale(3)}
+  to {transform:scale(2)}
 }
 
 .close {
