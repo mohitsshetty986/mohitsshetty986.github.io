@@ -242,6 +242,7 @@ h1{
   padding: 20px; 
   height: 200px;
   pointer-events: auto;
+  overflow: hidden;
 }
 
 #myImg1{
@@ -249,13 +250,15 @@ h1{
   padding: 20px; 
   height: 200px;
   pointer-events: auto;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 505px){
   #myImg, #myImg1{
   float: none;
   height: auto; 
-  width: 80%;  
+  width: 80%; 
+  overflow: hidden; 
   }
     
   .container{
