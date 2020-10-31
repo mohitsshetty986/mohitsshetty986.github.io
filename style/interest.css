@@ -239,7 +239,8 @@ h1{
 
 #myImg{
   float:right; 
-  padding: 20px; 
+  padding: 20px;
+  width: 300px; 
   height: 200px;
   pointer-events: auto;
   overflow: hidden;
@@ -247,7 +248,8 @@ h1{
 
 #myImg1{
   float:left; 
-  padding: 20px; 
+  padding: 20px;
+  width: 300px; 
   height: 200px;
   pointer-events: auto;
   overflow: hidden;
