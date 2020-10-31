@@ -293,7 +293,7 @@ h1{
   pointer-events: none;
 }
 
-.modal {
+.modal,.modal1 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 9999999999; /* Sit on top */
@@ -314,6 +314,13 @@ h1{
   max-width: 700px;
 }
 
+.modal-content1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1500px;
+}
+
 #caption {
   margin: auto;
   display: block;
@@ -325,7 +332,7 @@ h1{
   height: 150px;
 }
 
-.modal-content, #caption {  
+.modal-content,.modal-content1, #caption {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
