@@ -253,3 +253,21 @@ textarea {
 		font-size: 13px;
 	}
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #b2876f;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b2876f; 
+  border-radius: 10px;
+  opacity: 0.5;
+}
