@@ -89,12 +89,6 @@
 		<img class="modal-content" id="img01">
 		<div id="caption"></div>
 	</div>
-	<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/parallax.jpg" style="opacity: 0;"></div>
-	<br>
-	<br>
-	<br>
-	<br>
-    <br>
 
     <br>
     <hr width="80%;">
