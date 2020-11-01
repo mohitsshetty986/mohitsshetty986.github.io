@@ -172,8 +172,6 @@ body{
   margin:auto;
   text-align: center;
   font-family: 'Piazzolla', serif;
-  height: 2000px;
-  overflow: auto;
 }
 
 
@@ -395,8 +393,7 @@ h1{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #f8f4ed; 
+  background: #b2876f; 
   border-radius: 10px;
-  height: 50px;
-  border-color: #b2876f;
+  opacity: 0.5;
 }
