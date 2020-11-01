@@ -67,10 +67,9 @@ body{
 }
 
 .parallax{
-    padding: 100px 35px;
     background: transparent;
     pointer-events: none;
-    height: 350px;
+    height: 300px;
 }
 
 @media(max-width: 767px){
@@ -79,20 +78,6 @@ body{
     background-size: contain;
   }
 }
-
-.info{
-  z-index: 2;
-  position: relative;
-  color: white;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 30px;
-    letter-spacing: .24em;
-    line-height: 1em;
-    text-transform: uppercase;
-    text-align: center; 
-}
-
 
 #content3{
   padding-top: 4rem;
