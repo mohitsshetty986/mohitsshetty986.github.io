@@ -44,19 +44,6 @@
 	<br>
 	<br>
 	<br>
-
-	<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/facts.jpg">
-		<p class="info" style="color: #f8f4ed; font-family: 'Piazzolla', serif; font-weight: bolder;">
-			<br>
-		    OUR BELIEF..
-		    <br>
-		</p>
-	</div>
-
-	<br>
-	<br>
-	<br>
-
 		<div class="container">
 			<input type="text" id="myInput" onkeyup="myFunction1()" placeholder="Search feed.." title="Type in a name">
 
