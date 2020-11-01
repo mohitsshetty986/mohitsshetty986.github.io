@@ -397,9 +397,5 @@ h1{
 ::-webkit-scrollbar-thumb {
   background: #b2876f; 
   border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  height: 50px;
 }
