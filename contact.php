@@ -27,7 +27,7 @@
 	  <a href="" style="pointer-events: none"></a>
 	  <a href="index.html">Home</a>
 	  <a href="work.html">Work</a>
-	  <a href="interests.php">Newsfeed</a>
+	  <a href="interests.php">Leisure</a>
 	  <a href="" class="active">Contact</a>
 	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 	    <i class="fa fa-bars"></i>
