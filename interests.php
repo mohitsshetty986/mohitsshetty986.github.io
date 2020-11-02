@@ -37,7 +37,13 @@
 	</div>
 
 	<button id="topBtn"><i class="fa fa-arrow-up"></i></button>
-
+	<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/parallax.jpg">
+		<p class="info">
+			<br>
+		    "We all have two lives, the second begins when we realize we only have one."
+		    <br>
+		</p>
+	</div>
 	<br>
 	<br>
 	<br>
