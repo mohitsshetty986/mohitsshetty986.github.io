@@ -85,7 +85,7 @@
 						        <path class="a2" d="M0 10 L15 26 L30 10"></path>
 						        <path class="a3" d="M0 20 L15 36 L30 20"></path>
 						    </svg>
-							<div class="morecontent">More from me</div>
+							<div class="morecontent">See more</div>
 						</div>
 
 					<div class="hidecontent">
@@ -234,12 +234,12 @@
 	<script>
 		$(document).ready(function(){
 			$(".morecontent").click(function(){
-			if ($(this).text()=='More from me'){
+			if ($(this).text()=='See more'){
 					$(this).text('See less');
 					$(".hidecontent").css('display','block');
 				}
 				else{
-					$(this).text('More from me');
+					$(this).text('See more');
 					$(".hidecontent").css('display','none');
 				}
 			});
