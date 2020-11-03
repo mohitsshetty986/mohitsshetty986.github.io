@@ -138,6 +138,70 @@ body{
   }
 }
 
+.morecontent{
+  color: #f8f4ed; 
+  padding: 15px 15px;
+  width: 20%;
+  background: #b2876f; 
+  box-shadow: 0 0 10px #b2876f; 
+  margin: auto;
+  font-size: 17px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.hidecontent{
+  display: none;
+}
+
+svg {
+    max-width: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 30px;
+    max-height: 40px;
+    display: inline-block;
+}
+
+.arrow-down path {
+  stroke: #b2876f;
+  fill: transparent;
+  stroke-width: 1px;  
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:.8}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:.8}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrow-down path.a1 {
+  animation-delay:-1s;
+  -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrow-down path.a2 {
+  animation-delay:-0.5s;
+  -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrow-down path.a3 { 
+  animation-delay:0s;
+  -webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
 #topBtn{
   position: fixed;
   bottom: 40px;
