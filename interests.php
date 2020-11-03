@@ -51,7 +51,7 @@
 	<br>
 	<br>
 		<div class="container">
-			<input type="text" id="myInput" onkeyup="myFunction1()" placeholder="Search feed.." title="Type in a name">
+			<input type="text" id="myInput" onkeyup="myFunction1()" oninput="myFunction2()" placeholder="Search feed.." title="Type in a name">
 
 				<ul id="myUL">
 					<li><a href="javascript:void(0);"><p class="large-text">Altair 8800</p>
@@ -179,9 +179,21 @@
 		            li[i].style.display = "none";
 		        }
 		    }
-		   	$(".hidecontent").css('display','block');
-		   	$(".morecontent").css('display','none'); 
-		   	$(".readmore").css('display','none');
+		}
+	</script>
+
+	<script>
+		function myFunction2() {
+			if ($("#myInput").val()!=""){
+			   	$(".hidecontent").css('display','block');
+			   	$(".morecontent").css('display','none'); 
+			   	$(".readmore").css('display','none');				
+			}
+			else{
+			   	$(".hidecontent").css('display','none');
+			   	$(".morecontent").css('display','block'); 
+			   	$(".readmore").css('display','block');
+		   }
 		}
 	</script>
 
