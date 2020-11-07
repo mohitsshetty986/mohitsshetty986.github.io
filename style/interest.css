@@ -340,6 +340,10 @@ h1{
   list-style-type: none;
   padding: 0;
   margin: 0;
+} 
+
+#myUL li {
+  padding: 20px;
 }
 
 #myUL li a {
