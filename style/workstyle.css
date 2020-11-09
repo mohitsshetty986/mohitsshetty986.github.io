@@ -291,8 +291,9 @@ body{
 .large-text{
   font-size: 25px;
   border-bottom: 3px solid grey;
-  width: 400px;
+  width: 50%;
   cursor: default;
+  text-align: left;
 }
 
 .small-text{
