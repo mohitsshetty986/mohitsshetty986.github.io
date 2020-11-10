@@ -151,7 +151,6 @@ span:hover {
 }
 
 @media screen and (max-width: 600px) {
-
   .fa-envelope-o,.fa-twitter,.fa-linkedin,.fa-github{
     font-size: 20px;
   }
