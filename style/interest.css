@@ -304,7 +304,7 @@ h1{
 
 #myImg{
   float:right; 
-  padding: 0px 20px 20px 0;
+  padding: 0px 0px 20px 20px;
   width: 300px; 
   height: 200px;
   pointer-events: auto;
@@ -313,7 +313,7 @@ h1{
 
 #myImg1{
   float:left; 
-  padding: 0px 0px 20px 20px;
+  padding: 0px 20px 20px 0px;
   width: 300px; 
   height: 200px;
   pointer-events: auto;
