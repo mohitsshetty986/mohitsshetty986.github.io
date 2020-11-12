@@ -13,6 +13,12 @@ body{
   100% {background-position: 0% 50%;}
 }
 
+.banner-text-handwriting{
+  font-family: 'American Typewriter', serif; 
+  font-weight:100; 
+  font-size:60px;
+}
+
 .topnav {
   overflow: hidden;
   position: fixed;
