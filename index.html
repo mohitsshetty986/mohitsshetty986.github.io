@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
-	<meta charset="utf-8">
-	<link rel="shortcut icon" href="img/title.jpg" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="style/indexstyle.css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
-	<script>
-		function myFunction() {
-		  var x = document.getElementById("myTopnav"); 
-		  var y = document.getElementById("intro");
-		  if (x.className === "topnav") {
-		    x.className += " responsive";
-		    y.setAttribute("class", "blur");
-		  } else {
-		    x.className = "topnav"; 
-		    y.setAttribute("class", "");
-		  }
-		}
-	</script>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/title.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style/indexstyle.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav"); 
+      var y = document.getElementById("content");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        y.setAttribute("class", "blur");
+        $("#imgBx").css('display','none'); 
+      } else {
+        x.className = "topnav"; 
+        y.setAttribute("class", "");
+        $("#imgBx").css('display','block');
+      }
+    }
+  </script>
 </head>
 <body>
-	<div class="topnav" id="myTopnav">
-	  <a href="" style="pointer-events: none;"></a>
-	  <a href="#" class="active">Home</a>
-	  <a href="work.html">Work</a>
-	  <a href="interests.php">Leisure</a>
-	  <a href="contact.php">Contact</a>
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-	    <i class="fa fa-bars"></i>
-	  </a>
-	</div>
+  <div class="topnav" id="myTopnav">
+    <a href="" style="pointer-events: none;"></a>
+    <a href="#" class="active">Home</a>
+    <a href="work.html">Work</a>
+    <a href="interests.php">Leisure</a>
+    <a href="contact.php">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 
-	<div id="intro">
- 		<h1>Hello !</h1>
-	    <h1>I'm Mohit Shetty</h1>
-	    <p style="font-size: 17px;">I'm a Computer Science Masters student at, University at Buffalo, SUNY.</p>	
-	</div>
-
-	<div class="connect">
-	  <a href="mailto:mohitsshetty986@gmail.com" target="_blank"><span class="fa fa-envelope-o"></span></a>
-	  <a href="https://twitter.com/mohitsshetty986" target="_blank"><span class="fa fa-twitter"></span></a>
-	  <a href="https://www.linkedin.com/in/mohit-shetty-922298119" target="_blank"><span class="fa fa-linkedin"></span></a>
-	  <a href="https://github.com/mohitsshetty986" target="_blank"><span class="fa fa-github"></span></a>
-	</div>
+  <div id="content">
+  	<div id="contentBx">
+  		<h2>Hello !<br>I'm 
+        <span class="banner-text-handwriting">Mohit Shetty</span></h2>
+  		<p>I'm a Computer Science Masters student at, University at Buffalo, SUNY.</p>
+  	</div>
+  	<div id="imgBx">
+  		<img src="img/avatar-1.png">
+  	</div>
+  </div>
+  
+  
+  <div class="connect">
+    <a href="mailto:mohitsshetty986@gmail.com" target="_blank"><span class="fa fa-envelope-o"></span></a>
+    <a href="https://twitter.com/mohitsshetty986" target="_blank"><span class="fa fa-twitter"></span></a>
+    <a href="https://www.linkedin.com/in/mohit-shetty-922298119" target="_blank"><span class="fa fa-linkedin"></span></a>
+    <a href="https://github.com/mohitsshetty986" target="_blank"><span class="fa fa-github"></span></a>
+  </div>
 </body>
 </html>

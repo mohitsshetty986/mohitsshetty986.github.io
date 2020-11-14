@@ -1,9 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
 
 body{
   width: 100%;
   height: 100%;
+  margin: 0px;
   background: linear-gradient(132deg, #f8f4ed, #ffcc99);
-  background-size: 400% 400%;
+  background-size: 300% 480%;
   animation: BackgroundGradient 5s ease infinite;
 }
 
@@ -157,32 +159,9 @@ span:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .fa-envelope-o,.fa-twitter,.fa-linkedin,.fa-github{
     font-size: 20px;
-  }
-}
-
-#intro{
-  width: 30%;
-  transform: translate(0, 100%);
-  margin-left: 10%;
-  font-family: 'Piazzolla', serif;
-  font-weight: bolder;
-  position: absolute;
-}
-
-@media screen and (max-width: 400px) {
-  #intro{
-    width: 60%;
-    top: -30px;
-  }
-
-}
-
-@media screen and (max-width: 700px) {
-  #intro{
-    width: 60%;
-    top: -10px;
   }
 }
 
@@ -190,3 +169,72 @@ span:hover {
     filter: blur(35px);
 
 }
+
+#content{
+  margin: auto;
+  margin-top: 5%;
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  transform-origin: right;
+  font-family: 'Piazzolla', serif;
+}
+
+#content #contentBx{
+  max-width: 40%;
+  padding: 50px;
+}
+
+#content #contentBx h2{
+  font-size: 40px;
+  color: black;
+}
+
+#content #contentBx p{
+  font-size: 20px;
+  color: black;
+}
+
+#content #imgBx img{
+  width: 80%;
+}
+
+@media screen and (max-width: 1200px){
+  #content{
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #content{
+    flex-direction: column-reverse;
+  }
+
+  #content #contentBx{
+    max-width: 70%;
+    padding: 50px;
+  }
+
+  #content #imgBx img{
+    width: 80%;
+    margin: 10%;
+  }
+
+  #content #imgBx h2{
+    font-size: 30px;
+  }
+
+  .connect{
+    position: relative;
+    text-align: center;
+  }
+
+  #contentBx{
+    width: 90%;
+  }
+}
+
