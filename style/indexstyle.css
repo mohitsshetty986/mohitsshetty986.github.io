@@ -19,6 +19,7 @@ body{
   font-family: 'American Typewriter', serif; 
   font-weight:100; 
   font-size:60px;
+  cursor:default;
 }
 
 .topnav {
