@@ -138,29 +138,13 @@ body{
   }
 }
 
-.morecontent{
-  color: #f8f4ed; 
-  padding: 15px 15px;
-  width: 20%;
-  background: #b2876f; 
-  box-shadow: 0 0 10px #b2876f; 
-  margin: auto;
-  font-size: 17px;
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-.hidecontent{
-  display: none;
-}
-
 svg {
     max-width: 30px;
     margin: 0 auto;
     text-align: center;
     width: 30px;
     max-height: 40px;
-    display: inline-block;
+    display: block;
 }
 
 .arrow-down path {
