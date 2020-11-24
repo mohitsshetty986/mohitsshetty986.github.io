@@ -51,10 +51,33 @@
     <path class="a3" d="M0 20 L15 36 L30 20"></path>
   </svg>  
   <br>
-  <br>          
+  <br>     
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#altair">Altair 8800</a>
+      <a href="#blockchain">Blockchain</a>
+      <a href="#gigafactory">Tesla Gigafactory</a>
+      <a href="#voyager">Voyagers: Interstellar Mission</a>
+      <a href="#hyperloop">Hyperloop</a>
+      <a href="#boringcompany">The Boring Company</a>
+      <a href="#graphicscard">Inside a Graphics Card</a>
+    </div>     
     <div class="container">
       <input type="text" id="myInput" onkeyup="myFunction1()" placeholder="Search feed.." title="Type in a name">
+      <br>
+      <button class="openbtn" onclick="openNav()"><i class="fa fa-bookmark-o" aria-hidden="true"></i> &nbsp;&nbsp; Bookmarks </button> 
 
+        <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+}
+</script>
         <ul id="myUL">
           <li><a href="#altair"><p class="large-text" id="altair">Altair 8800</p>
             <img src="facts/altair-8800.jpg" id="myImg1" class="factimg" alt="The January 1975 article on Altair 8800">
@@ -219,6 +242,31 @@
       });
     });
 
+  </script>
+
+  <script>
+    var fixmeTop = $('.container').offset().top;       // get initial position of the element
+
+    $(window).scroll(function() {                  // assign scroll event listener
+
+        var currentScroll = $(window).scrollTop(); // get current position
+
+        if ($(window).width() > 1100) {
+        if (currentScroll >= fixmeTop) {           // apply position: fixed if you
+            $('.sidebar').css({                      // scroll to that element or below it
+                position: 'fixed',
+                top: '15%',
+                left: '0'
+            });
+        } else {                                   // apply position: static
+            $('.sidebar').css({                      // if you scroll above it
+                position: 'absolute',
+                top: '105%',
+                left: '0'
+            });
+        }
+      }
+    });
   </script>
 
 </body>
