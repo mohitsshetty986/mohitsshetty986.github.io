@@ -218,26 +218,6 @@ svg {
 }
 
 
-input {
-  width: 30%;
-  box-sizing: border-box;
-  border: 2px solid grey;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-  outline: none; 
-}
-
-input:focus {
-  width: 70%;
-}
-
 p:nth-of-type(1):first-letter {
   color: #b2876f;
   font-size: 39px;
@@ -260,12 +240,6 @@ p:nth-of-type(1):first-letter {
 
 .more{
   display: none;
-}
-
-@media screen and (max-width: 765px){
-  .morecontent{
-    font-size: 13px;
-  }
 }
 
 button{
@@ -316,13 +290,6 @@ h1{
     width: 80%;
   }
 
-  input{
-    width: 70%;
-  }
-
-  input:focus {
-  width: 90%;
-}
 }
 
 
@@ -446,4 +413,3 @@ h1{
   border-radius: 10px;
   opacity: 0.5;
 }
-
