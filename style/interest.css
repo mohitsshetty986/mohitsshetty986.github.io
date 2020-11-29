@@ -236,6 +236,7 @@ p:nth-of-type(1):first-letter {
   font-size: 15px;
   cursor: default;
   text-align: justify;
+  transition-duration: 1.5s;
 }
 
 .more{
@@ -307,6 +308,7 @@ h1{
   color: black;
   display: block;
   pointer-events: none;
+
 }
 
 .modal {

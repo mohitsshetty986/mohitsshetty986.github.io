@@ -25,6 +25,7 @@
 .fstdiv.open > .fstdropdown{
     position: absolute;
     left: 25%;
+    
 }
 
 .fstdropdown > .fstselected {
