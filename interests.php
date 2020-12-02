@@ -56,7 +56,7 @@
 
     <div class="container">
         <center><select type="text" class='fstdropdown-select' onchange="location = this.value;">
-            <option value="">Curiosity makes us human</option>
+            <option value="">Curious about something?</option>
             <option value="#altair">Altair 8800</option>
             <option value="#blockchain">Blockchain</option>
             <option value="#gigafactory">TESLA Gigafactory</option>
