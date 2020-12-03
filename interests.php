@@ -41,7 +41,7 @@
   <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/parallax.jpg">
     <p class="info">
       <br>
-        "We all have two lives, the second begins when we realize we only have one."
+        "Science, history and lifestyle quench my curiosity which I capture in this column."
         <br>
     </p>
   </div>
