@@ -41,7 +41,8 @@
   <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="facts/parallax.jpg">
     <p class="info">
       <br>
-        "Science, history and lifestyle quench my curiosity which I capture in this column."
+        "BEWARE OF MONOTONY, IT’S THE MOTHER OF ALL THE DEADLY SINS."
+        <br>Edith Wharton
         <br>
     </p>
   </div>
