@@ -42,7 +42,7 @@
     <p class="info">
       <br>
         "BEWARE OF MONOTONY, IT’S THE MOTHER OF ALL THE DEADLY SINS."
-        <br>Edith Wharton
+        <br>- Edith Wharton
         <br>
     </p>
   </div>
