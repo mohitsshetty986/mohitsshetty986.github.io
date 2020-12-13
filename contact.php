@@ -74,6 +74,8 @@
 	<br>
 	<br>
 
+	<div class="footer">made with <i class="fa fa-heart" aria-hidden="true"></i> by Mohit Shetty</div>
+
 	<script>
 	    if ( window.history.replaceState ) {
 	        window.history.replaceState( null, null, window.location.href );

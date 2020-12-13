@@ -157,9 +157,9 @@
         <br>
       <hr>
     <br>
-    </div>
+  </div>
 
-    <div class="footer"><i class="fa fa-code" aria-hidden="true" style="font-weight: bolder;"></i> by Mohit Shetty</div>
+  <div class="footer">made with <i class="fa fa-heart" aria-hidden="true"></i> by Mohit Shetty</div>
     
     <script src="script/fstdropdown.js"></script>
 
