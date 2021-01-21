@@ -230,10 +230,16 @@ body{
       left: 8px;
       width: 2px;
    }
+   
    .timeline-block {
       width: 100%;
       margin-bottom: 30px;
    }
+
+   .timeline-block h3{
+    text-align: left;
+   }
+
    .timeline-block-right {
       float: none;
    }
