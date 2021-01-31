@@ -171,7 +171,7 @@
 		  toolbar         : true,
 		  animationEffect : true,
 		  arrows          : true,
-		  clickContent    : true,
+		  clickContent    : true
 		});
 	</script>
     
