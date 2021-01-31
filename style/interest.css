@@ -16,7 +16,7 @@ body{
   border-bottom: 2px solid #b2876f;
   outline: none;
   font-family: 'Piazzolla', serif;
-  z-index: 99999;
+  z-index: 9999;
 }
 
 .topnav a {
