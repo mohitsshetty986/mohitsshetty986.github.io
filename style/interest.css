@@ -118,18 +118,17 @@ body{
 
 .thumbnails{
   width: 30%;
-  height: 285.188px;
+  height: auto;
   float: left;
   margin: 10px;
   background: #f8f4ed;
   box-sizing: border-box;
-  z-index: 999;  
-  position: relative;
-  padding: 20px;
+  z-index: 99999;  
 }
 
 .thumbnails img{
   width: 100%;
+  height: 285.188px;
   object-fit: cover;
 }
 
