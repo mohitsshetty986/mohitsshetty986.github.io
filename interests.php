@@ -137,7 +137,7 @@
 
         <?php
 
-        $dir=glob('img/not/{*.jpg,*.png}',GLOB_BRACE);
+        $dir=glob('img/{*.jpg,*.png}',GLOB_BRACE);
 
         /*   print_r($dir);    */
 
