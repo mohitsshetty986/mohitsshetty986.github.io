@@ -164,14 +164,14 @@
 
 	<script>
 		$("[data-fancybox]").fancybox({
-		  thumbs          : true,
+		  thumbs          : false,
 		  hash            : true,
 		  loop            : true,
 		  keyboard        : true,
 		  toolbar         : true,
 		  animationEffect : true,
 		  arrows          : true,
-		  clickContent    : true
+		  clickContent    : true,
 		});
 	</script>
     
