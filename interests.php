@@ -158,10 +158,22 @@
         <br>
         <br>
         <br>
-        
+
     <br>
   </div>
 
+	<script>
+		$("[data-fancybox]").fancybox({
+		  thumbs          : false,
+		  hash            : false,
+		  loop            : true,
+		  keyboard        : true,
+		  toolbar         : false,
+		  animationEffect : false,
+		  arrows          : true,
+		  clickContent    : false
+		});
+	</script>
     
     <script src="script/fstdropdown.js"></script>
 
