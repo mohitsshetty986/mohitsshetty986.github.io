@@ -129,8 +129,8 @@ body{
 }
 
 .thumbnails img{
-  width: auto;
-  height: 285.188px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
