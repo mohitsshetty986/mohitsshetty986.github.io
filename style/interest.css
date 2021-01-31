@@ -123,12 +123,13 @@ body{
   margin: 10px;
   background: #f8f4ed;
   box-sizing: border-box;
-  z-index: 9999;  
+  z-index: 999;  
   position: relative;
+  padding: 20px;
 }
 
 .thumbnails img{
-  width: auto;
+  width: 100%;
   height: 285.188px;
   object-fit: cover;
 }
