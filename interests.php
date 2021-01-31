@@ -169,7 +169,7 @@
 		  loop            : true,
 		  keyboard        : true,
 		  toolbar         : true,
-		  animationEffect : false,
+		  animationEffect : true,
 		  arrows          : true,
 		  clickContent    : false
 		});
