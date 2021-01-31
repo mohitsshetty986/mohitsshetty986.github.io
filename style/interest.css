@@ -125,11 +125,12 @@ body{
   box-sizing: border-box;
   z-index: 999;  
   position: relative;
+  padding: 20px;
 }
 
 .thumbnails img{
   width: 100%;
-  height: auto;
+  height: 285.188px;
   object-fit: cover;
 }
 
