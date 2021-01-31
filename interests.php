@@ -154,10 +154,14 @@
 
         ?>
         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
     <br>
   </div>
 
-  <div class="footer">made with <i class="fa fa-heart" aria-hidden="true"></i> by Mohit Shetty</div>
     
     <script src="script/fstdropdown.js"></script>
 
