@@ -168,7 +168,7 @@
 		  hash            : false,
 		  loop            : true,
 		  keyboard        : true,
-		  toolbar         : false,
+		  toolbar         : true,
 		  animationEffect : false,
 		  arrows          : true,
 		  clickContent    : false
