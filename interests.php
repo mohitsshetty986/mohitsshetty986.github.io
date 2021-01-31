@@ -164,8 +164,8 @@
 
 	<script>
 		$("[data-fancybox]").fancybox({
-		  thumbs          : false,
-		  hash            : false,
+		  thumbs          : true,
+		  hash            : true,
 		  loop            : true,
 		  keyboard        : true,
 		  toolbar         : true,
