@@ -117,7 +117,7 @@ body{
 }
 
 .thumbnails{
-  width: 30%;
+  width: 22%;
   height: auto;
   float: left;
   margin: 10px;
@@ -128,7 +128,7 @@ body{
 
 .thumbnails img{
   width: 100%;
-  height: 285.188px;
+  height: 200px;
   object-fit: cover;
 }
 
