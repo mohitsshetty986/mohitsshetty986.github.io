@@ -4,7 +4,7 @@
   <title>Interests</title>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="img/title.jpg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
   <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="style/interest.css">
@@ -158,7 +158,7 @@
         <br>
         <br>
         <br>
-        
+
     <br>
   </div>
 
