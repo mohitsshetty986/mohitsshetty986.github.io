@@ -137,7 +137,7 @@
 
         <?php
 
-        $dir=glob('img/{*.jpg,*.png}',GLOB_BRACE);
+        $dir=glob('img/photos/{*.jpg,*.png}',GLOB_BRACE);
 
         /*   print_r($dir);    */
 
@@ -153,7 +153,6 @@
         }
 
         ?>
-        Under development..
         <br>
       <hr>
     <br>
