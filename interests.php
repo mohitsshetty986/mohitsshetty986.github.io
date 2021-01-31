@@ -153,15 +153,10 @@
         }
 
         ?>
-        <br>
-        <hr>
-        <br>
-        <br>
-        <br>
-        <br>
-
-    <br>
   </div>
+    <hr>
+    <br>
+    <br>
 
 	<script>
 		$("[data-fancybox]").fancybox({
