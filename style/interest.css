@@ -116,10 +116,6 @@ body{
     
 }
 
-.photos{
-  width: 100%;
-}
-
 .thumbnails{
   width: 30%;
   height: 285.188px;
@@ -133,7 +129,7 @@ body{
 }
 
 .thumbnails img{
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
 }
