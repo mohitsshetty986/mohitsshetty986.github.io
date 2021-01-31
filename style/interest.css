@@ -118,7 +118,7 @@ body{
 
 .thumbnails{
   width: 30%;
-  height: 285.188px;
+  height: auto;
   float: left;
   margin: 10px;
   background: #f8f4ed;
@@ -129,7 +129,7 @@ body{
 }
 
 .thumbnails img{
-  width: 100%;
+  width: auto;
   height: 285.188px;
   object-fit: cover;
 }
