@@ -124,7 +124,7 @@ body{
   background: #f8f4ed;
   box-sizing: border-box;
   z-index: 99999;  
-  position: fixed;
+  position: relative;
 }
 
 .thumbnails img{
