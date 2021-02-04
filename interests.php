@@ -154,11 +154,7 @@
 
         ?>
   </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    
+
 	<script>
 		$("[data-fancybox]").fancybox({
 		  thumbs          : false,
