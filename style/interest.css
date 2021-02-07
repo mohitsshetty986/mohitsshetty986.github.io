@@ -76,6 +76,10 @@ body{
   .parallax {
     display: none;
   }
+
+  .arrow-down{
+    display: none;
+  }
 }
 
 .info{

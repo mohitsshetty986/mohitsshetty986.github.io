@@ -47,9 +47,7 @@
     </p>
   </div>
   <br>
-  <audio controls autoplay style="outline: none; top: 5px; width: 300px; height: 20px; opacity: 0.5; border-radius: 3px; color: #f8f4ed;">
-    <source src="img/feeling_good.mp3" type="audio/mp3">
-  </audio>
+
   <svg class="arrow-down">
     <path class="a1" d="M0 0 L15 16 L30 0"></path>
     <path class="a2" d="M0 10 L15 26 L30 10"></path>
