@@ -123,8 +123,8 @@ body{
 .thumbnails{
   width: 12%;
   height: 200px;
-  float: center;
-  margin: 10px;
+  float: left;
+  margin: 20px;
   background: #f8f4ed;
   box-sizing: border-box;
   z-index: 99999; 
