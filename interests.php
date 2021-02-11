@@ -133,7 +133,7 @@
     <hr width="80%;">
   <br>
 
-  <h1>Photos</h1>
+  <h1>Memento</h1>
   <div class="photos" style="width: 80%;margin: 0px auto;">
 
         <?php
