@@ -134,7 +134,7 @@
   <br>
 
   <h1>Memento</h1>
-  <div class="photos" style="width: 80%; margin: 10 auto;">
+  <div class="photos" style="width: 80%; margin: 50% auto;">
         <?php
 
         $dir=glob('img/photos/{*.jpg,*.png}',GLOB_BRACE);
