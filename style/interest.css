@@ -134,7 +134,6 @@ body{
 .thumbnails img{
   width: 100%;
   height: auto;
-  position: absolute;
   object-fit: cover;
 }
 
