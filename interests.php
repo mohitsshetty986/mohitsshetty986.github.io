@@ -134,27 +134,29 @@
   <br>
 
   <h1>Memento</h1>
-  <div class="photos" style="width: 80%; margin: 0px auto;">
+  <center>
+	  <div class="photos" style="width: 80%; margin: 0px auto;">
 
-        <?php
+	        <?php
 
-        $dir=glob('img/photos/{*.jpg,*.png}',GLOB_BRACE);
+	        $dir=glob('img/photos/{*.jpg,*.png}',GLOB_BRACE);
 
-        /*   print_r($dir);    */
+	        /*   print_r($dir);    */
 
-        foreach ($dir as $value){
-            ?>
-        <div class="thumbnails">     
-            <a href="<?php echo $value ; ?>" data-fancybox="images">
-                <img src="<?php echo $value ; ?>" alt="<?php echo $value ; ?> ">
-            </a>            
-        </div>
-        
-        <?php
-        }
+	        foreach ($dir as $value){
+	            ?>
+	        <div class="thumbnails">     
+	            <a href="<?php echo $value ; ?>" data-fancybox="images">
+	                <img src="<?php echo $value ; ?>" alt="<?php echo $value ; ?> ">
+	            </a>            
+	        </div>
+	        
+	        <?php
+	        }
 
-        ?>
-  </div>
+	        ?>
+	  </div>
+  </center>
 
 	<script>
 		$("[data-fancybox]").fancybox({
