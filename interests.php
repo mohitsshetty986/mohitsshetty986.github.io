@@ -135,7 +135,7 @@
 
   <h1>Memento</h1>
   <div class="photos" style="width: 80%; margin: 0 auto;">
-
+  	<center>
         <?php
 
         $dir=glob('img/photos/{*.jpg,*.png}',GLOB_BRACE);
@@ -154,6 +154,7 @@
         }
 
         ?>
+    </center>
   </div>
 
 	<script>
