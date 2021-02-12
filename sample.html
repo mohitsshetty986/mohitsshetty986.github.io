@@ -56,6 +56,12 @@
   <br>
   <br>     
 
+    <div class="wrapper">
+      <div class="typing-demo">
+        I capture the interesting facts I'm curious about. 
+      </div>
+    </div>
+
     <div class="container">
         <center><select type="text" class='fstdropdown-select' onchange="location = this.value;">
             <option value="">Curious about something?</option>
@@ -70,7 +76,7 @@
             <option value="#starship">SpaceX Starship</option>
             <option value="#warofroses">War of the Roses</option>
         </select></center>
-        
+
         <ul id="myUL">
           <li><a href="#altair"><p class="large-text" id="altair">Altair 8800: The First PC</p>
             <img src="facts/altair-8800.jpg" id="myImg1" class="factimg" alt="The January 1975 article on Altair 8800">
@@ -97,9 +103,8 @@
             <p class="small-text"> Billed as the fastest way to cross the surface of the earth, hyperloop represents the greatest leap in transport infrastructure for generations. With passengers sitting in pods that travel at airline speed through pressurised tubes using electric propulsion and magnetic levitation, the concept promises to slash journey times between major cities from several hours to a matter of minutes. Whilst it may feel like science fiction, hyperloop is now on the cusp of becoming a reality. Hyperloop was first concieved in 2012 by Tech entrepreneur Elon Musk, and engineers from both SpaceX and Tesla Motors worked for 9 months on creating a reasonable engineering and cost-assessment proposal for<span class="dots">...</span><span class="more"> the hyperloop which was released in August 2013. Design of a realistic hyperloop poses numerous technical and economic challeges. Musk has set out his vision for a futuristic, super high-speed transportation pods that moves through a partial vacuum in steel tubes - addressing the two key factors that slow down conventional vehicle: Friction and Air resistance. To alleviate friction between the pod and the tube, one possible mechanism is the magnetic levitation using very large permanent magnets to suspend the pod above the bottom of the tube. However this idea is dismissed due to higher costs. In his proposal Musk suggested a second possible method similar to the concept of air bearings in an air hockey table, using a cushion of air to support pods and eliminate rolling resistance. Pod will be driven on an electromagnetic track laid on a tunnel floor and when current is fed through the track, the pod moves forward, accelerating until a speed where it lifts up and is guided by magnets. The hyperloop partially-vacuum tubes will operate at very low pressure to reduce air resistance and an electric compressor fan will be fixed on the nose of the pod to pump high-pressure air from in front of the pod towards the air bearings that will levitate the pod above the surface of tube and the pod will glide without applying much thrust - expected to reach a speed of 760mph. Musk believed a potential Los Angeles - San Francisco route could be traversed in about 30 minutes, compared to the 8 hour bus ride, 4 hour train journey and convoluted 3 hour air travel between the 2 cities. The solar-powered tube track is designed to be immune to weather and Earthquakes and the smaller footprint pillars that lift tube above the ground can sway in case of an earthquake and each tube section can move flexibly if the terain shifts. SpaceX has announced an open competition, geared towards university students and independent engineering teams, to design and build the best Hyperloop pod. With this innovations and a completely automated departure system, Elon Musk dreams of the Hyperloop being the fastest, safest and most convenient form of travel in the world.</span> <button class="read">read more</button></p>
             </a></li>
 
-
-
-
+            
+            
 
           <li><a href="#boringcompany"><p class="large-text" id="boringcompany">The Future Elon Musk is boring</p>
             <img src="facts/theboringcompany.jpg" id="myImg" class="factimg" alt="Loop Test tunnel in Hawthorne, California">
@@ -138,8 +143,8 @@
   <br>
 
   <h1>Memento</h1>
-  <div class="photos" style="width: 80%; margin: 0px auto;">
-    <center>
+  <div class="photos" style="width: 80%;margin: 0px auto;">
+
         <?php
 
         $dir=glob('img/photos/{*.jpg,*.png}',GLOB_BRACE);
@@ -158,7 +163,6 @@
         }
 
         ?>
-    </center>
   </div>
 
 	<script>
