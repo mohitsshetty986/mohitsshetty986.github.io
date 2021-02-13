@@ -58,7 +58,7 @@
 
     <div class="wrapper">
       <div class="typing-demo">
-        I capture the interesting facts I'm curious about. 
+        Here I capture the interesting facts I'm curious about. 
       </div>
     </div>
 
