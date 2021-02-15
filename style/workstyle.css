@@ -522,6 +522,7 @@ footer {
   padding: 10px 20px;
   color: #b2876f;
   text-align: center;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 300px) {
