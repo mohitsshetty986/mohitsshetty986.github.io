@@ -73,6 +73,9 @@
 	</div>
 	<br>
 	<br>
+	<footer>
+    	<p title="HTML, CSS, JavaScript, PHP">Developed using <u>Web technologies</u>.</p>
+    </footer>
 	
 	<script>
 	    if ( window.history.replaceState ) {
