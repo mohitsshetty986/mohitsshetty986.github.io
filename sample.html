@@ -166,7 +166,7 @@
   </div>
 
     <footer>
-      <div title="HTML, CSS, JavaScript, PHP">Developed using <u>Web technologies</u>.</div>
+      <p title="HTML, CSS, JavaScript, PHP">Developed using <u>Web technologies</u>.</p>
     </footer>
 
   <script>
