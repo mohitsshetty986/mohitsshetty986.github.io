@@ -143,7 +143,7 @@
   <br>
 
   <h1>Memento</h1>
-  <div class="photos" style="width: 80%;margin: 0px auto;">
+  <div class="photos" style="width: 80%;margin: 0px auto; padding: 10px 20px;">
 
         <?php
 
