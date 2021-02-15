@@ -165,6 +165,10 @@
         ?>
   </div>
 
+    <footer>
+      <p title="HTML, CSS, JavaScript, PHP">Developed using <u>Web technologies</u>.</p>
+    </footer>
+
   <script>
     $("[data-fancybox]").fancybox({
       thumbs          : false,
