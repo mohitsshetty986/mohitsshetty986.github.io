@@ -175,7 +175,7 @@ body{
 
 @media screen and (max-width: 765px){
   .thumbnails{
-    width: 100%;
+    width: 80%;
   }
 }
 
